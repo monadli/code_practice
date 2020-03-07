@@ -1,4 +1,4 @@
-def convertString (input_string):
+def string_to_number (input_string):
     output = 0
     input_string = input_string.strip()
     neg = 0
@@ -17,14 +17,3 @@ def convertString (input_string):
         output *= -1
     
     return output
-
-
-
-
-# first line
-a = "-10924083"
-result = convertString(a)
-
-f = open("convertNumString_Output.txt","w+")
-f.write(str(result))
-f.close
